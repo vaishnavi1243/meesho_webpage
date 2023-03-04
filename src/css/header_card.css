@@ -1,0 +1,26 @@
+.header_card
+{
+    position: absolute;
+    top: 70px;
+    box-shadow: none;
+    width: auto;
+   
+    margin: 8px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+}
+.header_card p{
+    color:rgb(142, 137, 137);
+    size: 10px;
+}
+.header_card .profile_bottom
+{
+ display: flex;
+ margin-top: 20px;
+ 
+}
+.header_card .profile_bottom i{
+    margin-right: 10px;
+}

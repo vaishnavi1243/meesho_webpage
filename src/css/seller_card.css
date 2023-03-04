@@ -1,0 +1,32 @@
+.seller_card_banner
+{
+    border-radius: 10px;
+    height:150px;
+    width:20%;
+   
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f6f7f9;
+}
+
+.card_title
+{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    font-family: Poppins, sans-serif;
+    color: #f43397;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+}
+.card_content
+{
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+}

@@ -1,0 +1,58 @@
+.filters {
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  .accordion {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion button.accordion-button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: #f7f7f7;
+    border: none;
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .accordion button.accordion-button:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .accordion .accordion-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .accordion .accordion-panel.active {
+    max-height: 100vh;
+    transition: max-height 0.3s ease-in;
+  }
+  
+  .accordion .accordion-panel > div {
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #ccc;
+  }
+  
+  .accordion .accordion-panel > div:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .filters label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .filters input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+#filters-header
+{
+    margin-bottom: 15px;
+}  

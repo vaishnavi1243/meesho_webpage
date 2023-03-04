@@ -1,0 +1,45 @@
+
+
+    .quality_banner    {
+        display: flex;
+    justify-content: center;
+     margin: 56px 0px 60px;
+     box-sizing: border-box;
+    
+    height: 400px;
+    align-items: center;
+     
+    }
+    .quality_banner img{
+        width:800px;
+        height: 348px;
+    
+    }
+    .category_title{
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+     } 
+     
+     .category_title span { 
+         background:#fff; 
+         padding:0 10px; 
+     }
+.register_banner
+{
+    display: flex;
+    justify-content: center;
+     margin: 10px 0px 60px;
+     box-sizing: border-box;
+    
+    height: 350px;
+    align-items: center;
+}
+.register_banner img
+{
+    width:800px;
+    height: 250px;
+  margin-bottom: 40px;
+}

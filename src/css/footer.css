@@ -1,0 +1,106 @@
+.ads 
+{
+    width:270px;
+    text-align: left;
+   
+}
+
+
+.footer_upper
+{
+    line-height: 16px;
+    padding: 60px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.ads_info_one
+{
+    margin-bottom: 16px;
+    font-size:"32px" ;
+    font-weight:"bold" ;
+    color:"greyBase";
+}
+.footer_container{
+background: rgb(249, 249, 249);
+    margin-top: 40px;
+   
+    padding-right: 20px;
+}
+.ads_info_two
+{
+    
+    margin: 0px auto 32px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Mier book";
+    margin-bottom: 16px;
+    
+
+}
+.ads_info_three
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.ads_info_three p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(81, 78, 78);
+}
+.ads_info_four
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.ads_info_four p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(81, 78, 78);
+}
+.add_info_five
+{
+    width:150px;
+    margin-bottom:16px;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+    
+}
+.social_media
+{
+  display: flex;
+  width:150px;
+  height: 20px;
+}
+.social_media img
+{
+  width:20px;
+  height: auto;
+}
+.contact_us
+{
+width:140px;
+
+}
+.contact_us h5{
+    padding-top: 10px;
+    
+    color:rgb(128, 124, 124);
+}
+.footer_accordion_content
+{
+    padding-top:20px ;
+}

@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.header_upper
+{
+  padding-top: 15px;
+}
+.search
+{
+ width:400px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height:30px;
+  background-color:white;
+  display:flex ;
+  padding:8px;
+  border:2px solid rgb(153, 153, 153);
+}
+.search > i{
+  font-size: 19px;
+  color:#777;
+  margin-top: 2px;
+   
+}
+.search > input{
+ flex:1;
+  height: 25px;
+  border:none;
+  outline: none;
+  padding-left: 10px;
+}
+.header_upper
+{
+  display: flex;
+  justify-content: center;
+  
+}
+.meesho_logo
+{
+  margin-left: 50px;
+  width:150px;
+  height: 60px;
+}
+.header_right
+{
+ align-items: center;
+  width:600px;
+  display: flex;
+  justify-content: space-around;
+  margin-left:190px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#mobile_icon > i
+{
+  margin-right: 10px;
+  font-size: x-large;
+
+}
+.tabs
+{
+  display: flex;
+  border:1px solid rgb(153, 153, 153);
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  justify-content: space-between;
+  padding-left:20px;
+  padding-right: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+.tab-card-content {
+  
+  position: absolute;
+  top: 132px;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  background-color: #fff;
+  border: 1px solid black;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product
+{
+  display: flex;
+  width:70%;
+ 
+}
+.productlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product_card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  width: calc(20% - 1rem);
 }
 
-.App-link {
-  color: #61dafb;
+.product_card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row_divider {
+  width: 100%;
+  height: 1rem;
+}
+
+.row_divider {
+  width: 100%;
+  height: 1rem;
+}
+.mainpage
+{
+  display: flex;
+  
+}
+.product_card{
+  width: 100px;
+  height: 300px;
+}
+.filter
+{
+  width:20%;
+  margin-left: 20px;
+  margin-right: 150px;
+  
+}
+.mainpage
+{
+  margin-top: 20px;
 }

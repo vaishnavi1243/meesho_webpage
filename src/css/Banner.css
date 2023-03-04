@@ -1,0 +1,16 @@
+.banner
+{
+display: flex;
+justify-content: center;
+ margin: 56px 0px 60px;
+ box-sizing: border-box;
+
+height: 400px;
+align-items: center;
+ 
+}
+.banner img{
+    width:800px;
+    height: 348px;
+
+}

@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Component/Footer';
+import Header from './Component/Header';
+import Bannerspage from './Component/Bannerspage';
+import Productpage from './Component/Productpage';
+import Filter from './Component/Filter';
+import Cart from './Component/Cart';
+import Tabs from './Component/Tabs'
+import Supplier from './Component/Supplier'; // import the Supplier component
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Header />
+        <Routes>
+        
+          <Route path='' element={
+            <>             
+              <Tabs />
+              <Bannerspage />
+              <div className='mainpage'>
+                <Filter />
+                <Productpage />
+              </div>
+              <Footer />
+            </>
+          } />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/supplier" element={<Supplier />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
